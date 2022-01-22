@@ -77,14 +77,14 @@
             combo_to_workman {
                 timeout-ms = <40>;
                 key-positions = <30 31 32>;
-                bindings = <&kp ESC>;
+                bindings = <&to WORKMAN>;
                 layers = <COLEMAK>;
             };
 
             combo_to_colemak {
                 timeout-ms = <40>;
                 key-positions = <33 34 35>;
-                bindings = <&kp ESC>;
+                bindings = <&to COLEMAK>;
                 layers = <WORKMAN>;
             };
         };
