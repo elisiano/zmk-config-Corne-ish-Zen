@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define WORKMAN 0
-#define COLEMAK 1
+#define COLEMAK 0
+#define WORKMAN 1
 #define NAVR 2
 #define MOUR 3
 #define MEDR 4
