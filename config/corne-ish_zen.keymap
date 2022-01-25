@@ -98,20 +98,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        workman_layer {
-// ------------------------------------------------------------------
-// |  Q  |  D  |  R  |  W  |  B  |   |  J  |  F   |  U  |  P  |  '  |
-// |  A  |  S  |  H  |  T  |  G  |   |  Y  |  N   |  E  |  O  |  I  |
-// |  Z  |  X  |  M  |  C  |  V  |   |  K  |  L   |  ,  |  .  |  /  |
-//             | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-            label = "WORKMN";
-            bindings = <
-&kp Q      &kp D      &kp R       &kp W       &kp B    &kp J     &kp F        &kp U       &kp P        &kp SQT
-&hm LGUI A &hm LALT S &hm LCTRL H &hm LSHFT T &kp G    &kp Y     &hm RSHFT N  &hm RCTRL E &hm LALT O   &hm RGUI I
-&kp Z      &mt RALT X &kp M       &kp C       &kp V    &kp K     &kp L        &kp COMMA   &mt RALT DOT &kp FSLH
-           &tm MEDR ESC &tm NAVR SPACE &tm MOUR TAB    &tm NSSL RET &tm NSL BSPC &tm FUNL DEL
-            >;
-        };
         colemak_layer {
            label = "COLEMK";
            bindings = <
@@ -122,6 +108,15 @@
            >;
         };
 
+        workman_layer {
+            label = "WORKMN";
+            bindings = <
+&kp Q      &kp D      &kp R       &kp W       &kp B    &kp J     &kp F        &kp U       &kp P        &kp SQT
+&hm LGUI A &hm LALT S &hm LCTRL H &hm LSHFT T &kp G    &kp Y     &hm RSHFT N  &hm RCTRL E &hm LALT O   &hm RGUI I
+&kp Z      &mt RALT X &kp M       &kp C       &kp V    &kp K     &kp L        &kp COMMA   &mt RALT DOT &kp FSLH
+           &tm MEDR ESC &tm NAVR SPACE &tm MOUR TAB    &tm NSSL RET &tm NSL BSPC &tm FUNL DEL
+            >;
+        };
 
         navr_layer {
             label    = "NAVR";
