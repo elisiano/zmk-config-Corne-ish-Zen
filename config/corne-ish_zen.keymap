@@ -111,7 +111,7 @@
            label = "COLEMK";
            bindings = <
 &kp Q      &kp W      &kp F       &kp P       &kp B    &kp J     &kp L        &kp U       &kp Y        &kp SQT
-&hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G    &kp M     &hm RSHFT N  &hm RCTRL E &hm LALT I   &hm RGUI O
+&hm LGUI A &hm LALT R &hm LCTRL S &hs LSHFT T &kp G    &kp M     &hs RSHFT N  &hm RCTRL E &hm LALT I   &hm RGUI O
 &kp Z      &mt RALT X &kp C       &kp D       &kp V    &kp K     &kp H        &kp COMMA   &mt RALT DOT &kp FSLH
            &tm MEDR ESC &tm NAVR SPACE &tm MOUR TAB    &tm NSSL RET &tm NSL BSPC &tm FUNL DEL
            >;
